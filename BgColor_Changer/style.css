@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "YourCustomFont";
+    src: url('path/to/your/font.woff2') format('woff2'),
+        url('path/to/your/font.woff') format('woff');
+}
+
+body {
+    font-family: "YourCustomFont", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+
