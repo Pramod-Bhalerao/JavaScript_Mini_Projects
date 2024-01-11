@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cursor {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+h1{
+    font-size: 9vw;
+    font-weight: 800;
+
+}
